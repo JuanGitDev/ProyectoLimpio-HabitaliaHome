@@ -1,9 +1,9 @@
 /*Archivo de estilos globales, usados en todas las páginas*/
 :root {
   /* 🎨 PALETA PERSONALIZADA */
-  --color-principal: #a7d0e4;
-  --color-neutro: #f2f7fa;
-  --color-acento: #5aa7c7;
+  --color-principal: #8a7f7c;
+  --color-neutro: #dcd0c0;
+  --color-acento: #556b2f;
   --color-texto: #0b051a;
 
   /* Hovers */
@@ -29,7 +29,6 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: var(--color-neutro);
   color: var(--color-texto);
   display: flex;
