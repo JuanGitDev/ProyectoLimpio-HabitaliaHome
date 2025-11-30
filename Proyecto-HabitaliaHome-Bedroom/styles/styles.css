@@ -3,14 +3,14 @@
 /*Archivo de estilos globales, usados en todas las páginas*/
 :root {
   /* 🎨 PALETA PERSONALIZADA */
-  --color-principal: #8A7F7C;
-  --color-neutro: #DCD0C0;
-  --color-acento: #556B2F;
+  --color-principal: #E8DCC5;
+  --color-neutro: #F9F9F9;
+  --color-acento: #D1BFA3;
   --color-texto: #0b051a;
 
   /* Hovers */
   --color-hover-bg: var(--color-acento);
-  --color-hover-text: #DCD0C0;
+  --color-hover-text: #F9F9F9;
 
   /* Derivados */
   --color-white: #ffffff;
