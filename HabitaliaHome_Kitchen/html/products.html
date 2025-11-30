@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productos - Habitalia Home</title>
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/productsStyles.css" />
+    <script src="../js/headerMobileButton.js"></script>
+    <script src="../js/desplegableHeader.js"></script>
+ <style>
+    .h1Products {
+      color: var(--color-texto);
+      text-align: center;
+      font-weight: bold; 
+      font-size: xx-large; 
+      margin: 0; 
+      width: unset;
+    }
+  </style>
+</head>
+
+<body>
+  <div data-include="./header.html"></div>
+
+  <main class="container">
+    <section class="carousel">
+      <h1 class="h1Products">PRODUCTOS</h1>
+      <br>
+      <div class="carousel-content">
+        <div class="slide">
+          <img src="../assets/images/ImgsPlantillas/kitchen1.jpg" alt="Cocina moderna de lujo" />
+        </div>
+        <div class="slide">
+          <img src="../assets/images/ImgsPlantillas/kitchen2.jpg" alt="Cocina minimalista en tonos neutros" />
+        </div>
+        <div class="slide">
+          <img src="../assets/images/ImgsPlantillas/kitchen3.jpg" alt="Cocina de lujo con isla central" />
+        </div>
+        <div class="slide">
+          <img src="../assets/images/ImgsPlantillas/kitchen4.jpg" alt="Cocina contemporánea con acabados premium" />
+        </div>
+        <div class="slide">
+          <img src="../assets/images/ImgsPlantillas/kitchen5.jpg" alt="Cocina elegante con iluminación integrada" />
+        </div>
+      </div>
+      <button class="carousel-arrow prev" onclick="moveSlide(-1)">&lt;</button>
+      <button class="carousel-arrow next" onclick="moveSlide(1)">&gt;</button>
+    </section>
+
+    <!-- PRODUCTO 1 - GRIFO + LAVABO -->
+    <section class="product-item">
+      <div class="product-image">
+        <img src="../assets/images/ImgProducts/cocina/grifo.png" alt="Grifo premium para cocina" />
+      </div>
+      <div class="product-info">
+        <h2>Grifo de Cocina Premium + Lavabo de Manos</h2>
+        <p>
+          Un conjunto diseñado para cocinas de lujo. El grifo, con caño extraíble y acabado en acero cepillado,
+          ofrece precisión y comodidad. El pequeño lavabo integrado es ideal para áreas de preparación rápida,
+          aportando funcionalidad sin perder elegancia.
+        </p>
+        <button class="btn-add-to-cart">
+          <img src="../assets/icons/but_icon.png" alt="Icono de carrito" style="width: 20px; height: 20px;">
+          Añadir al carrito
+        </button>
+      </div>
+    </section>
+
+    <!-- PRODUCTO 2 - MUEBLES DE COCINA -->
+    <section class="product-item product-item-reverse">
+      <div class="product-image">
+        <img src="../assets/images/ImgProducts/cocina/mueble.jpg" alt="Muebles de cocina de diseño" />
+      </div>
+      <div class="product-info">
+        <h2>Muebles de Cocina en Madera y Acabado Mate</h2>
+        <p>
+          Mobiliario de fabricación premium en madera natural y frentes mate antihuellas. Diseñados para resistir el uso
+          diario y ofrecer un estilo contemporáneo y sofisticado. Con sistemas de apertura suave y almacenaje inteligente.
+        </p>
+        <button class="btn-add-to-cart">
+          <img src="../assets/icons/but_icon.png" alt="Icono de carrito" style="width: 20px; height: 20px;">
+          Añadir al carrito
+        </button>
+      </div>
+    </section>
+
+    <!-- PRODUCTO 3 - ENCIMERA -->
+    <section class="product-item">
+      <div class="product-image">
+        <img src="../assets/images/ImgProducts/cocina/encimera.webp" alt="Encimera de cocina en piedra natural" />
+      </div>
+      <div class="product-info">
+        <h2>Encimera de Piedra Natural Premium</h2>
+        <p>
+          Elaborada en cuarzo y mármol natural, esta encimera ofrece resistencia al calor y a los impactos,
+          además de un acabado impecable. Ideal para cocinas de alto nivel que buscan elegancia y durabilidad.
+        </p>
+        <button class="btn-add-to-cart">
+          <img src="../assets/icons/but_icon.png" alt="Icono de carrito" style="width: 20px; height: 20px;">
+          Añadir al carrito
+        </button>
+      </div>
+    </section>
+
+    <!-- PRODUCTO 4 - VITROCERÁMICA -->
+    <section class="product-item product-item-reverse">
+      <div class="product-image">
+        <img src="../assets/images/ImgProducts/cocina/vitro.avif" alt="Vitrocerámica de inducción" />
+      </div>
+      <div class="product-info">
+        <h2>Vitrocerámica de Inducción de Alta Gama</h2>
+        <p>
+          Una placa de inducción con control táctil avanzado, calentamiento ultra-rápido y zonas de cocción flexibles.
+          Su superficie negra pulida aporta un toque moderno y combina perfectamente con cocinas sofisticadas.
+        </p>
+        <button class="btn-add-to-cart">
+          <img src="../assets/icons/but_icon.png" alt="Icono de carrito" style="width: 20px; height: 20px;">
+          Añadir al carrito
+        </button>
+      </div>
+    </section>
+
+    <!-- PRODUCTO 5 - MESA -->
+    <section class="product-item">
+      <div class="product-image">
+        <img src="../assets/images/ImgProducts/cocina/mesa.jpg" alt="Mesa elegante para cocina" />
+      </div>
+      <div class="product-info">
+        <h2>Mesa de Cocina en Madera Noble y Acero</h2>
+        <p>
+          Una mesa elegante diseñada para cocinas amplias y contemporáneas. Su tablero de madera maciza se combina con
+          una estructura metálica en acabado negro mate, creando una pieza resistente, moderna y visualmente impecable.
+        </p>
+        <button class="btn-add-to-cart">
+          <img src="../assets/icons/but_icon.png" alt="Icono de carrito" style="width: 20px; height: 20px;">
+          Añadir al carrito
+        </button>
+      </div>
+    </section>
+
+  </main>
+
+  <div data-include="./footer.html"></div>
+
+  <script src="../js/include.js"></script>
+  <script src="../js/carousel.js"></script>
+</body>
+
+</html>
