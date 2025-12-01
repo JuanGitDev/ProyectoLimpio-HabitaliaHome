@@ -106,3 +106,12 @@ h1 {
 .payButton:hover {
   background-color: var(--color-secundario);
 }
+
+@media screen and (max-width: 768px) {
+  .cartItem {
+    flex-direction: column;
+    img {
+      width: 100%;
+    }
+  }
+}
